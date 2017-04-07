@@ -20,6 +20,9 @@ h1 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	text-shadow: 0px 0px 7px #AAAAAA;
+	margin-top: 5px;
+	margin-bottom: 0px;
+
 }
 
 button {
@@ -36,7 +39,7 @@ button {
 }
 
 .hor_nav {
-	margin-top: 0px;
+	margin: 0px;
 }
 
 .main_menu {
@@ -63,6 +66,8 @@ button {
 	color: #e8e8e8;
 }
 
+
+
 .link_menu {
 	color: #e8e8e8;
 	text-align: center;
@@ -72,11 +77,11 @@ button {
 .li_menu {
 	text-align: center;
 	display: inline-block;
-	margin-left: 10px;
-	margin-right: 10px;
 	margin-top: 0px;
 	padding-top: 20px;
 	height: 80px;
+	width: 80px;
+	margin-right: 10px;
 }
 	.li_menu:hover {
 		background: #29262A;
@@ -215,7 +220,7 @@ button {
 
 .segeste {
 	width: 70%;
-	height: 280px;
+	height: 320px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -241,11 +246,11 @@ button {
 }
 
 	.deal {
-		width: 23.8%;
-		height: 228px;
+		width: 23.94%;
+		height: 270px;
 		background: #E5E9EA;
 		float: left;
-		margin: 0px 5px 5px 5px;
+		margin: -5px 5px 5px 5px;
 		border-radius: 5px;
 	}
 
@@ -256,7 +261,7 @@ button {
 		-webkit-transform: scale(1.01);
 		}
 
-		.img_golf {
+		.img_seggests {
 			width: 215px;
 			height: 150px;
 			margin: 5px 5px 0px 5px;
@@ -276,12 +281,20 @@ button {
 			padding: 10px;
 		}
 
+		.get_it {
+			width: 120px;
+			height: 30px;
+			margin: 10px 10px 10px 50px;
+			border-radius: 0px;
+			background: #036D19;
+		}
+
 /*copy write*/
 
 .copy_write{
 	background: #161925;
 	padding: 10px 50px 20px 50px;
-	margin-top: 13px;
+	margin-top: 11px;
 }
 	.why_me {
 		font-family: 'Poppins', sans-serif;
@@ -309,11 +322,11 @@ button {
 /*footer*/
 
 .footer {
-	width: 97%;
+	width: 100%;
 	height: 200px;
 	background: #141115;
 	margin-top: 0px;
-	padding: 20px;
+	padding: 0px;
 }
 
 
@@ -327,7 +340,7 @@ button {
 .social {
 	display: block;
 	float: right;
-	margin: 30px 150px 20px 20px;
+	margin: 30px 150px 20px 0px;
 }
 
 .social_fb {
@@ -366,8 +379,7 @@ button {
 	width: 400px;
 	height: 100px;
 	float: right;
-	margin: 40px;
-
+	margin: 40px 0px 40px 20px;
 }
 
 .contact {
@@ -386,12 +398,15 @@ button {
 	font-size: 1em; 
 	font-family: 'Poppins', sans-serif;
 	margin: 0px;
+
 }
 
 .lorem {
 	color: #BEBEBF;
 	font-size: 0.7em; 
 	font-family: 'Poppins', sans-serif;
+
+
 }
 
 .lorem1 {
